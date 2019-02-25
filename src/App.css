@@ -31,3 +31,31 @@
     transform: rotate(360deg);
   }
 }
+
+.film-box {
+  display: flex;
+  flex-direction: column;
+  margin-left: 10px;
+  width: 35%;
+  border: 1px solid black;
+  background-color: gainsboro;
+}
+
+h1 {
+  padding-left: 10px;
+  text-decoration: underline;
+}
+
+li {
+  padding-bottom: 5px;
+}
+
+button {
+  display: flex;
+  width: 90%;
+  margin-bottom: 10px;
+  align-self: center;
+  justify-content: center;
+  border: 1px solid black;
+  background-color: skyblue;
+}
